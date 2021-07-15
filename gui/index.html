@@ -1,0 +1,24 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+	<h2 id="status">Waiting to communicate with the board...</h2>
+	<div id="results" style="display: none">
+		<h2>Results</h2>
+		<table id="resultsTable">
+		</table>
+	</div>
+	<hr>
+	<div id="uploadPositive" style="display: none">
+		<h2>Upload positive test result</h2>
+		<p>(In the future, this will require a cryptographically signed message from the testing center)</p>
+		<button id="uploadPositiveBtn">Upload</button>
+	</div>
+	<hr>
+	<div id="serverInfo" style="display: none">
+		<p id="quarantine"></p>
+	</div>
+</body>
+</html>
